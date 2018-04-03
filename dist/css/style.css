@@ -1,17 +1,47 @@
 .Header {
   width: 960px;
   display: flex;
-  justify-content: center;
   align-items: center;
   border: 1px solid #C0C0C0;
   border-radius: 4px;
+  box-sizing: border-box;
+  padding: 0px;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
+.Text {
+  font-family: Kinnari;
+  color: #5e696d;
 }
 .Text-link {
   font-size: 17px;
   text-decoration: none;
+  padding: 0 7px;
+  margin: 0;
+}
+.Text-link:hover {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  border-radius: 1px;
+}
+.Text-Brand {
+  font-size: 17px;
+  text-decoration: none;
+  font-weight: bold;
 }
 .Container {
   width: 960px;
   box-sizing: border-box;
   margin: 0 auto;
+}
+.SampleHeading {
+  background-color: #f5f5f5;
+  width: 100%;
+  margin-top: 20px;
 }
