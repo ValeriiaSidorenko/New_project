@@ -1,26 +1,24 @@
 {
   "name": "new_project",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "grunt": "^1.0.2",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-less": "^1.4.1",
-    "grunt-sass": "^2.1.0"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ValeriyaSidorenko/New_project.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ValeriyaSidorenko/New_project/issues"
   },
   "homepage": "https://github.com/ValeriyaSidorenko/New_project#readme",
-  "description": ""
+  "dependencies": {
+    "grunt": "^1.0.2",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-less": "^1.4.1"
+  }
 }
